@@ -1,6 +1,8 @@
 # Laravel 中文文档构建工具
 
-这是一个用于构建laravel中文PDF文档的工具
+这是一个用于构建laravel中文PDF文档的工具。
+
+> 此外，我还编写了一个通用的，用于把网页文档转换为PDF文档的工具，[点击这里](https://github.com/liuguangw/pdf-builder)查看我的新项目。
 
 ### 前台抓取
 
@@ -35,7 +37,7 @@
 - 本地web服务器(nginx或者Apache、IIS都可以)
 
 ### 可能出现的问题
-   
+
 >'ebook-convert' 不是内部或外部命令，也不是可运行的程序或批处理文件。
 
 安装[calibre](https://calibre-ebook.com/download) ,其安装目录下,有一个 `ebook-convert.exe`，把此文件所在的目录
